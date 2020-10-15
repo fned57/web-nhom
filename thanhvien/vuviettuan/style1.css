@@ -1,0 +1,158 @@
+body{
+    background-image: url(https://www.wallpaperflare.com/static/440/538/513/technology-computer-tablet-low-poly-wallpaper.jpg );
+    width: 1000;
+    height: 5000;
+  }
+  h1{
+      font-size: 30px;
+      font-family: 'Segoe UI' ;
+      width: 1300px;
+      height: 60px;
+      line-height: 50px;
+  }
+  img{
+      width: 300px;
+      height:300px;
+  }
+  #menu ul {
+      background: black;
+      color: white;
+      font-family: 'Segoe UI';
+      font-style: unset;
+      width: 260px;  
+      text-align: center;
+    }
+    #menu li {
+      width: auto;
+      height: 40px;
+      line-height: 38px;
+      border: 1px solid yellow;
+      
+  
+      padding: 0 1em;
+    }
+    #menu li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+  
+    }
+    #menu li:hover {
+      background: green;
+    }
+    .container{
+      display: flex;
+    }
+    #menu ul {
+      background: black;
+      color: white;
+      font-family: 'Segoe UI';
+      font-style: unset;
+      width: 260px;  
+      text-align: center;
+    }
+    .skills{
+        color: white;
+        font-family: 'Segoe UI';
+        margin-left: 0px;
+        max-width: 400px;
+        flex: 1;
+    }
+    .skills .skills-content .column{
+      width: calc(50% - 30px);
+  }
+  .skills .skills-content .left .text{
+      color: white;
+      font-family: 'Lucida Sans';
+      font-size: 17px;
+      font-weight: 400;
+      margin-bottom: 20px;
+  }
+  .skills .skills-content .left p{
+      text-align: justify;
+  }
+  .skills .skills-content .left a{
+      font-family: 'Lucida Sans';
+      display: inline-block;
+      background: crimson;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 8px 16px;
+      margin-top: 20px;
+      border-radius: 6px;
+      border: 2px solid crimson;
+      transition: all 0.3s ease;
+  }
+  .skills .skills-content .left a:hover{
+      color: crimson;
+      background: none;
+  }
+  .skills .skills-content .right .bars{
+      margin-bottom: 15px;
+  }
+  .skills .skills-content .right .info{
+      display: flex;
+      margin-bottom: 5px;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .skills .skills-content .right span{
+      font-weight: 500;
+      font-size: 18px;
+  }
+  .skills .skills-content .right .line{
+      height: 5px;
+      width: 100%;
+      background: lightgrey;
+      position: relative;
+  }
+  .skills .skills-content .right .line::before{
+      content: "";
+      position: absolute;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: crimson;
+  }
+  .skills-content .right .html::before{
+      width: 2%;
+  }
+  .skills-content .right .css::before{
+      width: 60%;
+  }
+  .skills-content .right .js::before{
+      width: 80%;
+  }
+  .skills-content .right .php::before{
+      width: 50%;
+  }
+  .skills-content .right .mysql::before{
+      width: 70%;
+  }
+  .h1{
+      text-align: center;
+  }
+  .border{
+      width: 100px;
+      height: 500px;
+      background-color: white;
+      margin: 30 auto;
+  }
+  .skills .skills-content{
+      width: 720px;
+  }
+  h4{
+      font-family: Arial;
+      font-size: 15px;
+      
+      background-size: 50px;
+  }
+  h3{
+      font-family: sans-serif;
+      color: white;
+      height: 50px
+  }
+  
+  
+  
