@@ -1,0 +1,151 @@
+body{
+    margin: auto;
+    background-image: url(https://thumbs.dreamstime.com/b/new-york-skyscrapers-against-dramatic-blue-sky-looking-up-61651289.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    width: 953px;
+    /* border: solid 5px whitesmoke; */
+    border-radius: 5%; 
+}
+header{
+    width: 953px;
+    height: 20px;
+    background-color:white ;
+    position: fixed;
+    top:0px;
+    right: 0px;
+}
+nav{
+    width: auto;
+    height: auto;
+    background-color: beige;
+    display: none;
+   
+    position: fixed;
+    top:20px;
+    left: 0px;
+    columns: 2;
+}
+
+main{
+
+    margin: auto;
+  
+    width: auto;
+    height: auto;
+}
+footer{
+    clear: both;
+    margin-bottom: 0px;
+    background-color: white;
+    width: 953px;
+    height: 20px;
+    position: fixed;
+    bottom:0px;
+    right: 0px;
+}
+#avt{
+    width: 250px;
+    height: 250px;
+   
+    background-image: url(https://scontent.fhan3-2.fna.fbcdn.net/v/t1.15752-9/121027853_376384686889619_509201592778830225_n.jpg?_nc_cat=100&_nc_sid=ae9488&_nc_ohc=92U5Whq4W3oAX-v2laH&_nc_ht=scontent.fhan3-2.fna&oh=248c7853371cb39cff5f8c48445ce9c9&oe=5FA7790E);
+    border: solid 5px whitesmoke;
+    border-radius: 50%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#gioithieu1{
+    background-color: whitesmoke;
+}
+#menu a {
+    font-size: xx-large;
+    margin: 20px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+
+}
+#menu a:hover{
+   background-color: gainsboro;
+    
+}
+#gioithieu{
+    width: auto;
+    height: auto;
+    text-align: left;
+    /* border: 5px blue solid; */
+    background-color: white;  
+
+}
+#gioithieu > #avt{
+    margin-top:80px;
+}
+p{
+    margin: 40px;
+	
+}
+
+#lienhe{
+    background-color: white;
+    width: auto;
+  
+    text-align: center;
+    
+}
+
+.noi-dung{
+    /* background-image: url(http://eng.vinhuni.edu.vn/Portals/77/Logo/logo123_lf.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+
+}
+.noidung div:hover{
+    background-color: beige;
+}
+
+#kinang{
+    background-color: white;
+}
+nav > div {
+    
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    
+    
+
+}
+article{
+    border-radius: 3%;
+}
+
+.noidung > div >img{
+   width: 100px;
+   height: 80px;
+   
+}
+
+#sothics{
+    background-color: white;
+}
+.icontrai{
+    width: 40px;
+    height: 50px;
+   
+    margin-right: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#lienhemap:hover{
+    background-color: beige;
+}
+#lienhegmail:hover{
+    background-color: beige;
+}
+#lienhephone:hover{
+    background-color: beige;
+}

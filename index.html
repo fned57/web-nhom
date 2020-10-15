@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0px;
+
+        }
+        header{
+            background-color: black;
+            width: auto;
+            height:20px;
+            margin-top: 10px;
+        }
+        #logo{
+            width: auto;
+            height: 300px;
+            background-repeat: no-repeat;
+            background-size: cover;
+           background-image: url(https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/12417597_599567700184510_1079615403477458382_n.jpg?_nc_cat=108&_nc_sid=e3f864&_nc_ohc=yjDwNHG-IW8AX-MgnDS&_nc_ht=scontent.fhan3-1.fna&oh=1fd4a581a13f5600bad2e74c9339a0c9&oe=5FA6A58B);
+
+        }
+        td > div{
+            width: 100px;
+            height: 100px;
+            border: solid 5px blue;
+            border-radius: 50%;
+            margin: auto;
+            
+            background-repeat: no-repeat;
+            background-size:cover;
+
+        
+        }
+        td{
+            width: 300px;
+            text-align:center;
+            background-color: white;
+            
+        }
+        td:hover{
+            
+            border: solid 5px rebeccapurple;
+            border-radius: 20px;
+            background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)
+            
+        }
+        #gioithieu{
+            
+            background-image: url(https://alokiddy.com.vn/Uploads/images/huong/danh-ngon-tieng-anh-ve-tu-do-hay-nhat%202.png);
+            background-repeat: no-repeat;
+            background-size:100%;
+
+            width:500px;
+            height: 150px;
+            border: 2px solid darkred;
+            border-radius: 20px;
+            margin: auto;
+
+
+        }
+        h1{
+            margin-top: -5px;
+            font-style: italic;
+            font-family: "PMingLiU-ExtB";
+            
+        }
+        h2{
+            margin-top:-5px ;
+        }
+        td{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <header> </header>
+    <main>
+        <div id="logo"></div>
+        <div id="thanhvien" style="background-color: aquamarine;">
+            <table style="margin: auto;">
+                <tr>
+                    <td onclick="thanhvien(1)">
+                        <div style="background-image: url(https://scontent.fhan5-4.fna.fbcdn.net/v/t1.0-9/69485976_2466101763673573_5775109516936871936_o.jpg?_nc_cat=104&_nc_sid=a4a2d7&_nc_ohc=eZDfJwKKc5kAX8kz25v&_nc_ht=scontent.fhan5-4.fna&oh=bf9ffe54f021f8aa5a9dae25f08efec9&oe=5FA2F168);">
+                            
+                        </div>
+                        <h1><i>Member 1</i></h1>
+                        <h2>Hồ Mạnh Tùng <br> 1755248020100153</h2>
+                        
+                    </td>
+
+                    <td>
+                        <div style="background-image: url(https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/120975837_2835917543308079_3050684965304946869_o.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=y59tYVNv9OEAX_cfMq3&_nc_ht=scontent.fhan3-1.fna&oh=c91af11ea0ae81059e5e280231a9e431&oe=5FA6A68E);"></div>
+                        <h1>Member 2</h1>
+                        <h2>Vũ Viết Tuấn <br> 1755248020100111</h2>
+                    </td>
+                    <td onclick="thanhvien(3)"><div style="background-image: url(https://scontent.fhan3-2.fna.fbcdn.net/v/t1.15752-9/121027853_376384686889619_509201592778830225_n.jpg?_nc_cat=100&_nc_sid=ae9488&_nc_ohc=92U5Whq4W3oAX-v2laH&_nc_ht=scontent.fhan3-2.fna&oh=248c7853371cb39cff5f8c48445ce9c9&oe=5FA7790E);"></div>
+                        <h1>Member 3</h1>
+                        <h2>Trần Đăng Tuấn <br> 1755248020100155</h2>
+                    </td>
+                    <td onclick="thanhvien(4)">
+                        <div style="background-image: url(https://scontent.fhan3-2.fna.fbcdn.net/v/t1.15752-0/p280x280/104329207_1342259449301819_7915157775145870422_n.jpg?_nc_cat=107&_nc_sid=ae9488&_nc_ohc=UQUea7Y0N4UAX9MRZlI&_nc_ht=scontent.fhan3-2.fna&tp=6&oh=ed1da047f83f6f10a8c9e50a0444fb0e&oe=5FA5B902);"></div>
+                        <h1>Member 4</h1>
+                        <h2>Ngô Văn Tuấn <br> 1755248020100031</h2>
+                    </td>
+                    <td onclick="thanhvien(5)">
+                        <div style="background-image: url(thanhvien/nguyenquocvinh/image/Vinh.png);"></div>
+                        <h1>Member 5</h1>
+                        <h2>Nguyễn Quốc Vinh <br> 1755248020100001</h2>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="gioithieu">
+
+        </div>
+    </main>
+    
+</body>
+<script>
+    function thanhvien(i){
+        if (i == 5){
+            location.href = "thanhvien/nguyenquocvinh/index.html";
+        }
+        if( i == 4){
+            location.href = "thanhvien/NgoVanTuan/index.html";
+        }
+        if (i==1){
+            location.href = "thanhvien/homanhtung/index.html";
+        }
+        if (i==3){
+            location.href = "thanhvien/trandangtuan/index.html";
+        }
+        
+    }
+</script>
+</html>
