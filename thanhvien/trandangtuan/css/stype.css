@@ -58,10 +58,13 @@ footer{
     background-size:cover;
 }
 #gioithieu1{
+background-color: white;
+}
+#anhbia{
     background-image: url(http://files.vforum.vn/2016/T03/img/vforum.vn-288115-cach-noi-xin-chao-trong-tieng-anh.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom; 
 }
 #menu a {
     font-size: xx-large;
